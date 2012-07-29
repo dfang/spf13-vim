@@ -1,0 +1,5 @@
+"my spf13 customization
+" i don't do php and python programming , so exclude  php and python group
+let g:spf13_bundle_groups=['general', 'programming', 'ruby', 'javascript', 'html', 'misc']
+
+"Bundle 'spf13/vim-colors'
