@@ -1,3 +1,9 @@
 "my spf13 customization
 
 "colorscheme ir_black
+
+"map F4 to Toggle NERDTree
+map <F4> :NERDTreeToggle<CR>
+
+"set NERDTree to open node with single click
+let NERDTreeMouseMode=3

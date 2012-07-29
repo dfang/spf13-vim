@@ -4,3 +4,6 @@
 let g:spf13_bundle_groups=['general', 'programming', 'ruby', 'javascript', 'html', 'misc']
 
 "Bundle 'spf13/vim-colors'
+
+
+"let g:override_spf13_bundles = 1
