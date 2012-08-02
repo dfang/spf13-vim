@@ -1,9 +1,13 @@
 "my spf13 customization
 
-"colorscheme ir_black
-
 "map F4 to Toggle NERDTree
-map <F4> :NERDTreeToggle<CR>
+map <F4> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
 
 "set NERDTree to open node with single click
 let NERDTreeMouseMode=3
+
+"MinimalUI,Hide Bookmarks and Press ? for Help
+let NERDTreeMinimalUI=1
+
+"set not to quit nerdtree when open a node
+let NERDTreeQuitOnOpen=0
